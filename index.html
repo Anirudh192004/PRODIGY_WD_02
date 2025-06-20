@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Stopwatch</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="full">
+		<div class="nav-bar">
+			<div class="logo">
+				<h3>Task-2</h3>
+			</div>
+			<div class="r-log">
+				<h3>Stopwatch With Lap Recording</h3>
+			</div>
+		</div>
+		<div class="stopwatch" id="display">
+			00:00:00
+		</div>
+		<div class="buttons">
+            <button class="start" onclick="startStopwatch()">Start</button>
+            <button class="stop" onclick="stopStopwatch()">Stop</button>
+            <button class="reset" onclick="resetStopwatch()">Reset</button>
+            <button class="lap" onclick="recordLap()">Lap</button>
+        </div>
+        <div class="laps" id="lapsList"></div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>

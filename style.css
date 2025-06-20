@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&display=swap');
+*{
+	padding:0;
+	margin:0;
+	background-color: #FFF2D7;
+}
+.logo h3{
+	color:#F98866;
+	font-family: "Press Start 2P";
+
+}
+.r-log h3{
+	color: #F98866;
+	font-family: "Edu NSW ACT Cursive";
+}
+.nav-bar{
+	position: relative;
+	max-width:87rem;
+	width:100%;
+	padding:2rem;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.stopwatch{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 20px 0;
+	color: black;
+}
+.buttons{
+	 display:flex;
+	 justify-content: center;
+	 gap: 10px;
+	 margin: 15px 0;
+}
+button{
+	padding: 10px 15px;
+	border: none;
+	border-radius: 18px;
+	font-size:15px;
+	font-weight: bold;
+	color: black;
+	transition: 0.3s;
+	border: 1px solid navy;
+}
+button:hover{
+	transform: scale(1.1);
+	background-color: black;
+	color: white;
+}
+.laps{
+	margin-top: 10px;
+	max-height: 200px;
+	padding: 5px;
+}
+.lap-item {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 10px;
+    font-size: 2em;
+    animation: fadeIn 0.3s ease-in-out;
+    text-align: center;
+    color: navy;
+}
